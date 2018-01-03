@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="WrlToDXF"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MinorVersionNr Value="1"/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion="0.0.0.0"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="D:/castle_game_engine/examples/3d_rendering_processing/data/mist.wrl"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="castle_base"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="46">
+      <Unit0>
+        <Filename Value="WrlToDXF.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="60" Y="41"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../src/x3d/castleshapes.pas"/>
+        <UnitName Value="CastleShapes"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="1245"/>
+        <CursorPos Y="1270"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../src/base/castlegenericlists.pas"/>
+        <UnitName Value="CastleGenericLists"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="276"/>
+        <CursorPos Y="299"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../src/3d/castlegeometryarrays.pas"/>
+        <UnitName Value="CastleGeometryArrays"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="26" Y="17"/>
+        <UsageCount Value="11"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../src/3d/castletriangles_dualimplementation.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos Y="106"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../src/base/castlevectors_dualimplementation.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1943"/>
+        <CursorPos Y="1978"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../src/3d/castletriangles.pas"/>
+        <UnitName Value="CastleTriangles"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos X="3" Y="58"/>
+        <UsageCount Value="14"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../src/base/castlevectors.pas"/>
+        <UnitName Value="CastleVectors"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="231"/>
+        <CursorPos X="3" Y="253"/>
+        <UsageCount Value="14"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../lazarus/fpc/3.0.4/source/packages/rtl-extra/src/inc/matrix.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="51" Y="42"/>
+        <UsageCount Value="14"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../2d_standard_ui/zombie_fighter/gamestateplay.pas"/>
+        <UnitName Value="GameStatePlay"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="126"/>
+        <CursorPos X="5" Y="139"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../wyrd-forest-1.0/code/gamestateplay.pas"/>
+        <UnitName Value="GameStatePlay"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="18" Y="26"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../src/x3d/castlescenecore.pas"/>
+        <UnitName Value="CastleSceneCore"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="21" Y="18"/>
+        <UsageCount Value="13"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../src/x3d/x3dtriangles.pas"/>
+        <UnitName Value="X3DTriangles"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="18" Y="18"/>
+        <UsageCount Value="11"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../src/x3d/castleinternaltriangleoctree.pas"/>
+        <UnitName Value="CastleInternalTriangleOctree"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="568"/>
+        <CursorPos Y="589"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../src/x3d/x3dnodes_standard_shape.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="48" Y="103"/>
+        <UsageCount Value="13"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../src/x3d/castleraytracer.pas"/>
+        <UnitName Value="CastleRayTracer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="809"/>
+        <CursorPos X="14" Y="832"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../src/x3d/x3dnodes.pas"/>
+        <UnitName Value="X3DNodes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="450"/>
+        <CursorPos X="3" Y="429"/>
+        <UsageCount Value="16"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../src/x3d/x3dnodes_1.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="116"/>
+        <CursorPos X="3" Y="135"/>
+        <UsageCount Value="13"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../lazarus/fpc/3.0.4/source/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="162"/>
+        <CursorPos X="23" Y="194"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../src/x3d/x3dnodes_instantreality.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="283"/>
+        <CursorPos X="40" Y="305"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../src/x3d/castlearraysgenerator_rendering.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1080"/>
+        <CursorPos Y="1124"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../src/x3d/castlearraysgenerator.pas"/>
+        <UnitName Value="CastleArraysGenerator"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="2028"/>
+        <CursorPos Y="2048"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="dxf3dutilsCGE"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="757"/>
+        <CursorPos X="74" Y="729"/>
+        <UsageCount Value="44"/>
+        <Bookmarks Count="1">
+          <Item0 X="7" Y="782" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../curves_surfaces/castleinterpolatedcurves.pas"/>
+        <UnitName Value="CastleInterpolatedCurves"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="223"/>
+        <CursorPos X="37" Y="72"/>
+        <UsageCount Value="15"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../../lazarus/fpc/3.0.4/source/packages/fcl-base/src/contnrs.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="17" Y="82"/>
+        <UsageCount Value="11"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../../src/x3d/x3dnodes_standard_geometry3d.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1389"/>
+        <CursorPos Y="1410"/>
+        <UsageCount Value="16"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../../src/x3d/x3dnodes_utils_box.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="121"/>
+        <CursorPos Y="150"/>
+        <UsageCount Value="12"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../src/x3d/x3dfields.pas"/>
+        <UnitName Value="X3DFields"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="622"/>
+        <CursorPos X="15" Y="641"/>
+        <UsageCount Value="18"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../../src/x3d/x3dnodes_standard_rendering.inc"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="954"/>
+        <CursorPos Y="974"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../../src/x3d/x3dnodes_node.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3143"/>
+        <CursorPos Y="3164"/>
+        <UsageCount Value="14"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../src/x3d/x3dnodes_encoding_classic.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="150"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="13"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../../src/x3d/x3dnodes_boundingboxes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="362"/>
+        <CursorPos X="10" Y="384"/>
+        <UsageCount Value="13"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../../tests/testx3dnodes.pas"/>
+        <UnitName Value="TestX3DNodes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="375"/>
+        <CursorPos X="49" Y="412"/>
+        <UsageCount Value="9"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../../src/x3d/x3dnodes_standard_core.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="27" Y="38"/>
+        <UsageCount Value="13"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../../src/base/castleinterfaces.pas"/>
+        <UnitName Value="CastleInterfaces"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="3" Y="63"/>
+        <UsageCount Value="9"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../../src/x3d/auto_generated_node_helpers/x3dnodes_box.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="46"/>
+        <UsageCount Value="13"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../../src/x3d/castlearraysgenerator_geometry3d.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="324"/>
+        <CursorPos Y="332"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../../src/base/castleutils_math.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="632"/>
+        <CursorPos Y="657"/>
+        <UsageCount Value="10"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="../../src/x3d/castleinternalshadowmaps.pas"/>
+        <UnitName Value="CastleInternalShadowMaps"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="133"/>
+        <CursorPos Y="173"/>
+        <UsageCount Value="11"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="../../src/x3d/x3dnodes_coordpolygons.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="174"/>
+        <CursorPos X="13" Y="192"/>
+        <UsageCount Value="10"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="../../src/x3d/x3dnodes_verticesandtrianglescounting.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="323"/>
+        <CursorPos X="22" Y="347"/>
+        <UsageCount Value="10"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="../../src/x3d/castleinternalnormals.pas"/>
+        <UnitName Value="CastleInternalNormals"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="345"/>
+        <CursorPos X="12" Y="354"/>
+        <UsageCount Value="10"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="../../src/base/castleutils.pas"/>
+        <UnitName Value="CastleUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos Y="163"/>
+        <UsageCount Value="11"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="../../src/x3d/castleinternalx3dlexer.pas"/>
+        <UnitName Value="CastleInternalX3DLexer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="14" Y="103"/>
+        <UsageCount Value="10"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="../../../lazarus/fpc/3.0.4/source/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="857"/>
+        <CursorPos X="28" Y="888"/>
+        <UsageCount Value="10"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="../../src/base/castlefilesutils.pas"/>
+        <UnitName Value="CastleFilesUtils"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="237"/>
+        <CursorPos X="10" Y="257"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit45>
+    </Units>
+    <JumpHistory Count="24" HistoryIndex="23">
+      <Position1>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="94" Column="48" TopLine="74"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="88" Column="33" TopLine="74"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="684" Column="3" TopLine="665"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="516" TopLine="496"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="689" Column="30" TopLine="655"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="67" Column="9" TopLine="47"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="512" Column="7" TopLine="495"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="477" Column="19" TopLine="459"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="727" TopLine="707"/>
+      </Position9>
+      <Position10>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="482" Column="3" TopLine="459"/>
+      </Position10>
+      <Position11>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="483" Column="26" TopLine="462"/>
+      </Position11>
+      <Position12>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="575" Column="5" TopLine="555"/>
+      </Position12>
+      <Position13>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="727" TopLine="707"/>
+      </Position13>
+      <Position14>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="576" TopLine="555"/>
+      </Position14>
+      <Position15>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="577" Column="23" TopLine="556"/>
+      </Position15>
+      <Position16>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="663" Column="3" TopLine="652"/>
+      </Position16>
+      <Position17>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="706" TopLine="679"/>
+      </Position17>
+      <Position18>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="722" TopLine="701"/>
+      </Position18>
+      <Position19>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="723" TopLine="701"/>
+      </Position19>
+      <Position20>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="724" TopLine="701"/>
+      </Position20>
+      <Position21>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="725" TopLine="701"/>
+      </Position21>
+      <Position22>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="710" Column="103" TopLine="701"/>
+      </Position22>
+      <Position23>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="705" Column="31" TopLine="696"/>
+      </Position23>
+      <Position24>
+        <Filename Value="dxf3dutilscge.pas"/>
+        <Caret Line="706" TopLine="696"/>
+      </Position24>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmallerCode Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowHints Value="False"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../src/x3d/x3dnodes_verticesandtrianglescounting.inc"/>
+        <Line Value="352"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="writeDXF_demo.lpr"/>
+        <Line Value="59"/>
+      </Item2>
+    </BreakPoints>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="CoordIndex.Count"/>
+      </Item1>
+      <Item2>
+        <Expression Value="BoxNode"/>
+      </Item2>
+    </Watches>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+      <Item3>
+        <Name Value="BreakFirstViewpointFound"/>
+      </Item3>
+      <Item4>
+        <Name Value="BreakIsNodePresent"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
